@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>    
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Pagina 1.html">Pagina 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Pagina 2.html">Pagina 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Pagina 3.html">Pagina 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <h1>Aquí verás un poco de mis trabajos</h1>
+        <p>Las imágenes pueden tardar en cargar, un poco de paciencia</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="accordion" id="portfolioAccordion1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Trabajo 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#portfolioAccordion1">
+                        <div class="accordion-body">
+                            <img src="Images/1.png" class="img-fluid" alt="Trabajo 1">
+                            <p>Este es un fanart de un personaje de la novela "Who made me a princess". El personaje de nombre Jennette de Alger Obelia
+                                es un personaje secundario de Quién me hizo princesa y la protagonista de la novela de ficción La encantadora princesa. 
+                                En la línea temporal original, era una princesa muy querida cuyo comportamiento angelical y carácter alegre acabaron por derretir el gélido corazón de Claude de Alger Obelia, el despiadado monarca reinante del Imperio Obeliano. 
+                                En la nueva línea temporal, Jennette se ve obligada a ocultar su parentesco con el linaje imperial mientras espera una oportunidad para reunirse con su familia.
+                            </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#unavailableModal">Ver publicación original</button>                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Trabajo 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#portfolioAccordion1">
+                        <div class="accordion-body">
+                            <img src="Images/2.png" class="img-fluid" alt="Trabajo 2">
+                            <p>Fanart de una cantante de K-Pop. La cantante del dibujo es AleXa...</p>
+                            <a href="https://www.instagram.com/p/C5XjMVKOhug/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" class="btn btn-primary" target="_blank">Ver publicación original</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="accordion" id="portfolioAccordion2">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Trabajo 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#portfolioAccordion2">
+                        <div class="accordion-body">
+                            <img src="Images/3.png" class="img-fluid" alt="Trabajo 3">
+                            <p>Dibujo de mi propio personaje original. Hecho para una dinámica en Instagram.</p>
+                            <a href="https://www.instagram.com/p/C_H09rhuQmj/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" class="btn btn-primary" target="_blank">Ver publicación original</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Trabajo 4
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#portfolioAccordion2">
+                        <div class="accordion-body">
+                            <img src="Images/4.png" class="img-fluid" alt="Trabajo 4">
+                            <p>Dibujo de otro personaje original. Un rediseño de otro de mis personajes.</p>
+                            <a href="Uhttps://www.instagram.com/p/C9Lvu-HNiu2/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" class="btn btn-primary" target="_blank">Ver publicación original</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4">
+            <div class="accordion" id="portfolioAccordion3">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Trabajo 5
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#portfolioAccordion3">
+                        <div class="accordion-body">
+                            <img src="Images/5.png" class="img-fluid" alt="Trabajo 5">
+                            <p>Un dibujo "hazlo a tu estilo".</p>
+                            <a href="https://www.instagram.com/p/C_Wr3FSt71C/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" class="btn btn-primary" target="_blank">Ver publicación original</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="unavailableModal" tabindex="-1" aria-labelledby="unavailableModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="unavailableModalLabel">Publicación no disponible</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Publicación aun no disponible.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
